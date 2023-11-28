@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Extra</title>
+    <link href="/style.css" rel="stylesheet" />
+    <link href="/reset.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    
+    <div class="header">
+          <a href="/index/index.html">
+            Tela inicial 
+          </a>   
+
+          <a href="/users/users.html">
+            Registro de usuários 
+          </a>  
+    </div>
+
+    <div class="extra-container" id="extra">
+
+      <form id="myForm">
+        <p>Registre os seus dados</p>
+        <label for="título">Título:</label>
+        <input type="text" name="título" id="titulo">
+
+        <label for="descriçao">Descrição:</label>
+        <input type="text" name="descriçao" id="descriçao">
+    
+        <label for="preço">Preço:</label>
+        <input type="number" name="preço" id="preço">
+    
+        <label for="marca">Marca:</label>
+        <input  name="marca" id="marca">
+
+        <label for="categoria">Categoria:</label>
+        <input  name="categoria" id="categoria">
+
+        <label for="imagem">Foto:</label>
+        <input name="imagem" id="imagem" placeholder="Insira a url da sua imagem...">
+    
+        <button type="submit"> Enviar </button>
+      </form>
+
+    </div>
+
+    <div class="list-container" id="list-container">
+
+    </div>
+    
+
+  <script src="productsScript.js"></script>
+</body>
+</html>
